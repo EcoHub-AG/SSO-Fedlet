@@ -1,0 +1,5 @@
+cot-name=ch_igb2b_idp
+sun-fm-cot-status=Active
+sun-fm-trusted-providers=igb2b-idp
+sun-fm-saml2-readerservice-url=
+sun-fm-saml2-writerservice-url=

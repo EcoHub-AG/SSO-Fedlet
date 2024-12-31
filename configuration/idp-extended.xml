@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityConfig entityID="igb2b-idp" hosted="0" xmlns="urn:sun:fm:SAML:2.0:entityconfig">
+	<IDPSSOConfig metaAlias="/idp">
+		<Attribute name="description">
+			<Value />
+		</Attribute>
+		<Attribute name="signingCertAlias">
+			<Value>test-idp-sso</Value>
+		</Attribute>
+		<Attribute name="encryptionCertAlias">
+			<Value>test-idp-sso</Value>
+		</Attribute>
+		<Attribute name="basicAuthOn">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="basicAuthUser">
+			<Value />
+		</Attribute>
+		<Attribute name="basicAuthPassword">
+			<Value />
+		</Attribute>
+		<Attribute name="autofedEnabled">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="autofedAttribute">
+			<Value />
+		</Attribute>
+		<Attribute name="assertionEffectiveTime">
+			<Value>80</Value>
+		</Attribute>
+		<Attribute name="idpAuthncontextMapper">
+			<Value>ch.ergon.medusapwauth.saml2.IDPAuthnContextMapperImpl</Value>
+		</Attribute>
+		<Attribute name="idpAuthncontextClassrefMapping">
+			<Value>urn:oasis:names:tc:SAML:2.0:ac:classes:TimeSyncToken</Value>
+			<Value>urn:oasis:names:tc:SAML:2.0:ac:classes:TLSClient</Value>
+			<Value>urn:oasis:names:tc:SAML:2.0:ac:classes:MobileOneFactorContract</Value>
+		</Attribute>
+		<Attribute name="idpAccountMapper">
+			<Value>ch.ergon.medusapwauth.saml2.IDPAccountMapperImpl</Value>
+		</Attribute>
+		<Attribute name="idpAttributeMapper">
+			<Value>ch.ergon.medusapwauth.saml2.IDPAttributeMapperImpl</Value>
+		</Attribute>
+		<Attribute name="attributeMap">
+			<!-- Is only used as a fallback if the SP doesn't provide an attributeMap -->
+			<Value>clientIpAddress=Host</Value>
+		</Attribute>
+		<Attribute name="assertionIDRequestMapper">
+			<Value>com.sun.identity.saml2.plugins.DefaultAssertionIDRequestMapper</Value>
+		</Attribute>
+		<Attribute name="idpECPSessionMapper">
+			<Value>com.sun.identity.saml2.plugins.DefaultIDPECPSessionMapper</Value>
+		</Attribute>
+		<Attribute name="wantNameIDEncrypted">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="wantArtifactResolveSigned">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="wantLogoutRequestSigned">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="wantLogoutResponseSigned">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="wantMNIRequestSigned">
+			<Value />
+		</Attribute>
+		<Attribute name="wantMNIResponseSigned">
+			<Value />
+		</Attribute>
+		<Attribute name="cotlist">
+			<Value>ch_igb2b_idp</Value>
+		</Attribute>
+		<Attribute name="discoveryBootstrappingEnabled">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="assertionCacheEnabled">
+			<Value>false</Value>
+		</Attribute>
+		<Attribute name="assertionNotBeforeTimeSkew">
+			<Value>20</Value>
+		</Attribute>
+		<Attribute name="saeAppSecretList" />
+		<Attribute name="saeIDPUrl">
+			<Value>https://test-brokergate.igb2b.ch/auth/idpsaehandler/metaAlias/idp</Value>
+		</Attribute>
+		<Attribute name="AuthUrl">
+			<Value />
+		</Attribute>
+		<Attribute name="appLogoutUrl">
+			<Value />
+		</Attribute>
+		<Attribute name="idpSessionSyncEnabled">
+			<Value>false</Value>
+		</Attribute>
+	</IDPSSOConfig>
+</EntityConfig>

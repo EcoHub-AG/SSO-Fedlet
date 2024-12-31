@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor entityID="igb2b-idp" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+	<IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+						MIIF6TCCA9GgAwIBAgIUSxtEzfAKS/tW5PKlfUowggMW0M8wDQYJKoZIhvcNAQEL
+						BQAwfTELMAkGA1UEBhMCQ0gxFDASBgNVBAgMC1N3aXR6ZXJsYW5kMRIwEAYDVQQK
+						DAlFY29IdWIgQUcxIzAhBgNVBAMMGkVjb0h1YiBBRyBTUCBDQSwgRWNvSHViIEFH
+						MR8wHQYJKoZIhvcNAQkBFhBpbmZvQG15ZWNvaHViLmNoMB4XDTIyMDcxMjE1NDMw
+						NVoXDTI1MDcxNDE1NDMwNVowbzELMAkGA1UEBhMCQ0gxFDASBgNVBAgMC1N3aXR6
+						ZXJsYW5kMQ8wDQYDVQQHDAZadXJpY2gxEjAQBgNVBAoMCUVjb0h1YiBBRzElMCMG
+						A1UEAwwccHNldWRvOiB0ZXN0LWlkcC1zc28tc2VydmljZTCCASIwDQYJKoZIhvcN
+						AQEBBQADggEPADCCAQoCggEBALJ6iBo25BwmVuvhlZ+Y84jpMTXzpezs7UA7styK
+						M9qP4a6zD3H07MyUKUp4e9JEMWiJBdlI2M8D3jCvQEzCZPleLTSQkQEZMSUKdR5A
+						f+AmmUb6ZZIBUHwnQa/EJzA1NdBekJPjFidgGKrMGwZ2wBXwXd2/GP5AgiIDL3st
+						jXK3H5fBf+k3cpEcJzM/GIurgszKwvs8xAjFG1S5qB9xIogIyGpDBXEcT9UjNNlZ
+						bNRsIu7qt1a9gAmd1113MS4BcRlVszJS9fhDA+nakBGBRuz05mQ8VXkkf2fnH33l
+						Goioq+xvukmwdIxQraT7YGSHb5ZxKrRzbL0hTUjRC/DkIgUCAwEAAaOCAW0wggFp
+						MAkGA1UdEwQCMAAwHQYDVR0OBBYEFFuooBX6qfL01PUu+tiEMcaLYDWuMB8GA1Ud
+						IwQYMBaAFK/mG59ccmTJ4YlFNIwf1QCvJGRVMA4GA1UdDwEB/wQEAwID+DA1BgNV
+						HSUELjAsBggrBgEFBQcDAgYIKwYBBQUHAwQGCisGAQQBgjcKAwQGCisGAQQBgjcU
+						AgIwewYIKwYBBQUHAQEEbzBtMDYGCCsGAQUFBzAChipodHRwOi8vY2EubXllY29o
+						dWIuY2gvY3J0L2Vjb2h1Yl9zcF9jYS5jZXIwMwYIKwYBBQUHMAGGJ2h0dHA6Ly9j
+						YS5teWVjb2h1Yi5jaC9vY3NwL2Vjb2h1Yl9zcF9jYTA7BgNVHR8ENDAyMDCgLqAs
+						hipodHRwOi8vY2EubXllY29odWIuY2gvY3JsL2Vjb2h1Yl9zcF9jYS5jcmwwGwYD
+						VR0RBBQwEoEQaW5mb0BteWVjb2h1Yi5jaDANBgkqhkiG9w0BAQsFAAOCAgEAmUgR
+						EbI6LpDoW7pak2NYcBwddd2fQ8dLdNiTCVolxyauZl55JPWSB1+Mwd7ty/0c7h2q
+						288+/3GG0jNf8+l0btxGHdBrGmuAgB46keCiIaMtl27CuXLV1AdRfGG5cOvelgIp
+						NB5/kBILRZ5CykNeNiy9Dwuu4SEdHty3uoSsvsb7HqutbMSE3PspFDaLpy8YiMXv
+						w9mWOMpEyq0kPl61SDkXFDVlEkUO+UHBFfWqHlyjzG8/vvRvpvTH6MqwXI2KUwYw
+						WYBsDsidb+gArsg8Bc8gID2/xxJllmqqTl3HsBhCCPjH9F+lReM3TKXyIcRbj51+
+						OIRA45GKbt/bg+lP90taX+rCGnkiNgcB9a5VcHS7BkRGvxcFTDpTRKmRbFfgkpdo
+						f7aF2c09WNoeI//5gxPHRVyHD0ZZGyo/fcx4sCubUUhmNZkDIEkgR58v8E3Ao0vU
+						UWS+6SQuUTX4RscZ//DC4j/frrnaFxPX4P/ysk8L9UBMdhCHKD5HTIjmCwS2xaYi
+						UliSyiSnFo/p1l7X0Au8Ah/LeZ3w54BI0xxK+uBKctCgDqs+jE85QosKKkevxnhV
+						PWqxweGBh0m2IxD/6qPYuyTU2e5xgLbhCaEhua4rgulBOMCCPGJWa7wDMUg7eDqK
+						jm4GXTGwsjQyQtjt2/QAcLBZQkmeiyfUe8nsJGs=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</KeyDescriptor>
+		<KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+						MIIF6TCCA9GgAwIBAgIUSxtEzfAKS/tW5PKlfUowggMW0M8wDQYJKoZIhvcNAQEL
+						BQAwfTELMAkGA1UEBhMCQ0gxFDASBgNVBAgMC1N3aXR6ZXJsYW5kMRIwEAYDVQQK
+						DAlFY29IdWIgQUcxIzAhBgNVBAMMGkVjb0h1YiBBRyBTUCBDQSwgRWNvSHViIEFH
+						MR8wHQYJKoZIhvcNAQkBFhBpbmZvQG15ZWNvaHViLmNoMB4XDTIyMDcxMjE1NDMw
+						NVoXDTI1MDcxNDE1NDMwNVowbzELMAkGA1UEBhMCQ0gxFDASBgNVBAgMC1N3aXR6
+						ZXJsYW5kMQ8wDQYDVQQHDAZadXJpY2gxEjAQBgNVBAoMCUVjb0h1YiBBRzElMCMG
+						A1UEAwwccHNldWRvOiB0ZXN0LWlkcC1zc28tc2VydmljZTCCASIwDQYJKoZIhvcN
+						AQEBBQADggEPADCCAQoCggEBALJ6iBo25BwmVuvhlZ+Y84jpMTXzpezs7UA7styK
+						M9qP4a6zD3H07MyUKUp4e9JEMWiJBdlI2M8D3jCvQEzCZPleLTSQkQEZMSUKdR5A
+						f+AmmUb6ZZIBUHwnQa/EJzA1NdBekJPjFidgGKrMGwZ2wBXwXd2/GP5AgiIDL3st
+						jXK3H5fBf+k3cpEcJzM/GIurgszKwvs8xAjFG1S5qB9xIogIyGpDBXEcT9UjNNlZ
+						bNRsIu7qt1a9gAmd1113MS4BcRlVszJS9fhDA+nakBGBRuz05mQ8VXkkf2fnH33l
+						Goioq+xvukmwdIxQraT7YGSHb5ZxKrRzbL0hTUjRC/DkIgUCAwEAAaOCAW0wggFp
+						MAkGA1UdEwQCMAAwHQYDVR0OBBYEFFuooBX6qfL01PUu+tiEMcaLYDWuMB8GA1Ud
+						IwQYMBaAFK/mG59ccmTJ4YlFNIwf1QCvJGRVMA4GA1UdDwEB/wQEAwID+DA1BgNV
+						HSUELjAsBggrBgEFBQcDAgYIKwYBBQUHAwQGCisGAQQBgjcKAwQGCisGAQQBgjcU
+						AgIwewYIKwYBBQUHAQEEbzBtMDYGCCsGAQUFBzAChipodHRwOi8vY2EubXllY29o
+						dWIuY2gvY3J0L2Vjb2h1Yl9zcF9jYS5jZXIwMwYIKwYBBQUHMAGGJ2h0dHA6Ly9j
+						YS5teWVjb2h1Yi5jaC9vY3NwL2Vjb2h1Yl9zcF9jYTA7BgNVHR8ENDAyMDCgLqAs
+						hipodHRwOi8vY2EubXllY29odWIuY2gvY3JsL2Vjb2h1Yl9zcF9jYS5jcmwwGwYD
+						VR0RBBQwEoEQaW5mb0BteWVjb2h1Yi5jaDANBgkqhkiG9w0BAQsFAAOCAgEAmUgR
+						EbI6LpDoW7pak2NYcBwddd2fQ8dLdNiTCVolxyauZl55JPWSB1+Mwd7ty/0c7h2q
+						288+/3GG0jNf8+l0btxGHdBrGmuAgB46keCiIaMtl27CuXLV1AdRfGG5cOvelgIp
+						NB5/kBILRZ5CykNeNiy9Dwuu4SEdHty3uoSsvsb7HqutbMSE3PspFDaLpy8YiMXv
+						w9mWOMpEyq0kPl61SDkXFDVlEkUO+UHBFfWqHlyjzG8/vvRvpvTH6MqwXI2KUwYw
+						WYBsDsidb+gArsg8Bc8gID2/xxJllmqqTl3HsBhCCPjH9F+lReM3TKXyIcRbj51+
+						OIRA45GKbt/bg+lP90taX+rCGnkiNgcB9a5VcHS7BkRGvxcFTDpTRKmRbFfgkpdo
+						f7aF2c09WNoeI//5gxPHRVyHD0ZZGyo/fcx4sCubUUhmNZkDIEkgR58v8E3Ao0vU
+						UWS+6SQuUTX4RscZ//DC4j/frrnaFxPX4P/ysk8L9UBMdhCHKD5HTIjmCwS2xaYi
+						UliSyiSnFo/p1l7X0Au8Ah/LeZ3w54BI0xxK+uBKctCgDqs+jE85QosKKkevxnhV
+						PWqxweGBh0m2IxD/6qPYuyTU2e5xgLbhCaEhua4rgulBOMCCPGJWa7wDMUg7eDqK
+						jm4GXTGwsjQyQtjt2/QAcLBZQkmeiyfUe8nsJGs=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+			<EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc">
+				<KeySize xmlns="http://www.w3.org/2001/04/xmlenc#">128</KeySize>
+			</EncryptionMethod>
+		</KeyDescriptor>
+		<ArtifactResolutionService index="0" isDefault="true"
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+			Location="https://test-brokergate.igb2b.ch/auth/ArtifactResolver/metaAlias/idp" />
+		<SingleLogoutService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://test-brokergate.igb2b.ch/auth/IDPSloRedirect/metaAlias/idp"
+			ResponseLocation="https://test-brokergate.igb2b.ch/auth/IDPSloRedirect/metaAlias/idp" />
+		<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+		<SingleSignOnService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://test-brokergate.igb2b.ch/auth/SSORedirect/metaAlias/idp" />
+		<SingleSignOnService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+			Location="https://test-brokergate.igb2b.ch/auth/SSOPOST/metaAlias/idp" />
+	</IDPSSODescriptor>
+</EntityDescriptor>
